@@ -1,0 +1,60 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+	box-sizing: border-box;
+}
+
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+html, body {
+	min-height: 100%;
+	font-family: 'Nanum Gothic';
+	font-weight: 400;
+	cursor: default;
+}
+
+body {
+	min-width: 100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	background: #ccc url("/mobile/img/debut_dark.png") repeat;
+	color: #666;
+	font: normal 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1;
+	color: #222;
+	margin-bottom: .5em;
+	float: left;
+	width: 100%;
+}
+
+h2 {
+	float: left;
+	width: 100%;
+	font-size: 1.5em;
+	color: #222;
+	margin: 1em 0 .5em;
+}
+
+p {
+	float: left;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+p.intro {
+	font-size: 1.25em;
+	color: #555;
+	font-weight: bold;
+}
