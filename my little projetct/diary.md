@@ -11,7 +11,7 @@ copy files and package.json properties from pre project except node module
 ```dos
 $ npm install
 ```
-<!-- blank line -->
+<br>
 # Orient DB 
 ## Database
 ```sql
