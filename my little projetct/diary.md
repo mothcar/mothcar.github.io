@@ -12,7 +12,7 @@ copy files and package.json properties from pre project except node module
 $ npm install
 ```
 
-### Orient DB 
+# Orient DB 
 ## Database
 ```sql
 > create database Tikehau
