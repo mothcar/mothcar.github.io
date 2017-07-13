@@ -42,6 +42,9 @@ $ npm i --save aws-sdk
 $ npm i --save multer
 ```
 
+## create user in AWS with IAM
+mothcar_s3
+
 
 
 
