@@ -35,6 +35,14 @@ DB Schema는 서버쪽에서만 만들어 놓으면 DB에서 별도로 property�
 $ node csvimport.js POI data/address.csv
 ```
 
+## image upload to AWS S3
+```dos
+$ npm i --save body-parser
+$ npm i --save aws-sdk
+$ npm i --save multer
+```
+
+
 
 
 
