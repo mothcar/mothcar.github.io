@@ -19,3 +19,9 @@ block body
 	.container
 		h1 Seven Mile Beach
 ```
+
+## main.pug 만들기
+```pug
+extends layout
+```
+
