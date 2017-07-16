@@ -6,7 +6,7 @@ extends node_modules/pug-bootstrap/layouts/starter
 
 append body
 	.container
-    h1 Seven Mile Beach
+    		h1 Seven Mile Beach
 ```
 로 했으나 Error!  
 이유는 path 문제와  
