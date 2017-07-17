@@ -23,5 +23,14 @@ block body
 ## main.pug 만들기
 ```pug
 extends layout
+
+block footer
+	h1 footer
 ```
+Error : there is no footer block  
+> 그래서 `node_modules/pug-boostrap/_boostrap.pug`에  
+```pug
+		block footer
+```
+추가
 
