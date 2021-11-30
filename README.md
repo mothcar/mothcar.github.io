@@ -1,18 +1,32 @@
 # mothcar.github.io
 
-```sequence
-张三->李四: 嘿，小四儿, 写博客了没?
-Note right of 李四: 李四愣了一下，说：
-李四-->张三: 忙得吐血，哪有时间写。
-```
+```dot
+# http://www.graphviz.org/content/cluster
+digraph G {
 
-```flow
-st=>start: 开始
-e=>end: 结束
-op=>operation: 我的操作
-cond=>condition: 确认？
+	subgraph cluster_0 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+		a0 -> a1 -> a2 -> a3;
+		label = "process #1";
+	}
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
+	subgraph cluster_1 {
+		node [style=filled];
+		b0 -> b1 -> b2 -> b3;
+		label = "process #2";
+		color=blue
+	}
+	start -> a0;
+	start -> b0;
+	a1 -> b3;
+	b2 -> a3;
+	a3 -> a0;
+	a3 -> end;
+	b3 -> end;
+
+	start [shape=Mdiamond];
+	end [shape=Msquare];
+}
 ```
