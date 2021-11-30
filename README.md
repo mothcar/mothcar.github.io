@@ -30,3 +30,4 @@ digraph G {
 	end [shape=Msquare];
 }
 ```
+<script src="http://www.graphviz.org/content/cluster"></script>
